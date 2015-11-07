@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{1BC23F93-ECA6-980B-67A2-7C1F3E4F6821}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_3;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\BaseScript.cs" />
+     <Compile Include="Assets\BaseScriptFE.cs" />
+     <Compile Include="Assets\ChartManager2Script.cs" />
+     <Compile Include="Assets\ChartManagerScript.cs" />
+     <Compile Include="Assets\ClockScript.cs" />
+     <Compile Include="Assets\Curve\BezierPath.cs" />
+     <Compile Include="Assets\Curve\Main.cs" />
+     <Compile Include="Assets\GraphScript.cs" />
+     <Compile Include="Assets\Graph_Maker\Examples\X_Dynamic\WMG_X_Dynamic.cs" />
+     <Compile Include="Assets\Graph_Maker\Examples\X_Ring_Graph\WMG_X_Data_Provider.cs" />
+     <Compile Include="Assets\Graph_Maker\Examples\X_Ring_Graph\WMG_X_Reflection_Ring.cs" />
+     <Compile Include="Assets\Graph_Maker\Examples\X_Ring_Graph\WMG_X_Ring_Graph.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\GUIDependent\WMG_Anim.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\GUIDependent\WMG_Events.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\GUIDependent\WMG_GUI_Functions.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\GUIDependent\WMG_Graph_Tooltip.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\Misc\WMG_EnumFlagAttribute.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\Misc\WMG_Enums.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\Misc\WMG_Reflection.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\Misc\WMG_Util.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Axis_Graph.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Caching_Functions.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Data_Generators.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Data_Source.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Graph_Auto_Anim.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Graph_Manager.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Grid.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Hierarchical_Tree.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Legend.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Legend_Entry.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Link.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Node.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Path_Finding.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Pie_Graph.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Pie_Graph_Slice.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Radar_Graph.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Random_Graph.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Ring.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Ring_Graph.cs" />
+     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Series.cs" />
+     <Compile Include="Assets\HelpObjectScript.cs" />
+     <Compile Include="Assets\LightClockScript.cs" />
+     <Compile Include="Assets\PosHistoryScaleScript.cs" />
+     <Compile Include="Assets\PosHistoryScript.cs" />
+     <Compile Include="Assets\ResultScreenButtonManagerScript.cs" />
+     <Compile Include="Assets\ResultScript.cs" />
+     <Compile Include="Assets\SimulatorScript.cs" />
+     <Compile Include="Assets\SliderScript.cs" />
+     <Compile Include="Assets\StartScreenScript.cs" />
+     <Compile Include="Assets\TextToTexture.cs" />
+     <Compile Include="Assets\VirtualPlayerScript.cs" />
+     <Compile Include="Assets\zzRuler\zzHorizontalRuler.cs" />
+     <Compile Include="Assets\zzRuler\zzVerticalRuler.cs" />
+     <None Include="Assets\Graph_Maker\DOTween\readme.txt" />
+     <None Include="Assets\Graph_Maker\ReadMe-1.4.txt" />
+     <None Include="Assets\Graph_Maker\Shaders\AreaShadingGradient.shader" />
+     <None Include="Assets\Graph_Maker\DOTween\DOTween46.xml" />
+     <None Include="Assets\zzRuler\readme.txt" />
+     <None Include="Assets\Graph_Maker\Shaders\AreaShadingFill.shader" />
+     <None Include="Assets\SevenSegmentDisplay\Shaders\AlphaSelfIllum.shader" />
+     <None Include="Assets\Graph_Maker\DOTween\DOTween43.xml" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>C:/Users/vvidyasa/Documents/PhysicsGame/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>C:/Users/vvidyasa/Documents/PhysicsGame/Assets/Graph_Maker/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>C:/Users/vvidyasa/Documents/PhysicsGame/Assets/Graph_Maker/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>C:/Users/vvidyasa/Documents/PhysicsGame/Assets/Graph_Maker/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="SevenSegmentDisplayDriver">
+ <HintPath>C:/Users/vvidyasa/Documents/PhysicsGame/Assets/SevenSegmentDisplay/Drivers/SevenSegmentDisplayDriver.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{2DB680D3-98D9-7140-F9AE-275DADA432DC}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
